@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LRcar</title>
+    <style>
+        /* Estilos globais */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1b1b1b;
+            color: #fff;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            color: #f2c94c;
+            margin-left: 10px;
+            font-size: 24px;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Conteúdo principal */
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px;
+        }
+
+        .card {
+            background-color: #333;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 50%;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin: 15px 0;
+        }
+
+        .card button {
+            background-color: #f2c94c;
+            color: #000;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #e5b532;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="src/img/Logo LRcar.PNG" alt="Logo">
+            <h1>LRcar</h1>
+        </div>
+        <nav>
+            <a href="#informacoes">Informações</a>
+            <a href="#reservas">Reservas</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <div class="card">
+            <img src="src/img/mercedes.png-removebg-preview.png" alt="Mercedes-Benz GLE 400">
+            <h3>Mercedes-Benz GLE 400</h3>
+            <button>Ver tabela de preços</button>
+        </div>
+        <div class="card">
+            <img src="src/img/limousine.png.png" alt="Limousine">
+            <h3>Limousine</h3>
+            <button>Ver tabela de preços</button>
+        </div>
+        <div class="card">
+            <img src="src/img/bmw.png.png" alt="BMW X1">
+            <h3>BMW X1</h3>
+            <button>Ver tabela de preços</button>
+        </div>
+        <div class="card">
+            <img src="src/img/audiQ3.png" alt="Audi Q3">
+            <h3>Audi Q3</h3>
+            <button>Ver tabela de preços</button>
+        </div>
+        <div class="card">
+            <img src="src/img/porshe911.png" alt="Porsche 911">
+            <h3>Porsche 911</h3>
+            <button>Ver tabela de preços</button>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 LRcar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
